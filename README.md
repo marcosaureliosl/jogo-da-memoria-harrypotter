@@ -22,7 +22,7 @@ URL: (https://marcosaureliosl.github.io/jogo-da-memoria-harrypotter/)
 
 ## O que Aprendi:
 
-Ao trabalhar com este código, adquirir as seguintes aprendizados:
+Ao trabalhar com este código, desenvolvi os seguintes aprendizados:
 
 1. Manipulação do DOM: O código demonstra como selecionar elementos HTML usando seletores CSS e manipular seus atributos, classes e conteúdo usando JavaScript.
 
@@ -95,7 +95,7 @@ Trabalhar com múltiplos arquivos HTML, CSS e JavaScript também ajuda a modular
 
 No geral, a inclusão da tela de login como parte do projeto demonstra habilidades em trabalhar com vários arquivos e integrar diferentes componentes em um aplicativo web.
 
-## login no Js
+## login Js
 
 ```
 const input = document.querySelector('.login__input');
