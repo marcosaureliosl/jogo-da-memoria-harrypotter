@@ -64,6 +64,25 @@ const characters = [
 
 ];
 
+// criação das cars //
+
+const createCard = (character) => {
+
+    const card = createElement('div', 'card');
+    const front = createElement('div', 'face front');
+    const back = createElement('div', 'face back');
+
+    front.style.backgroundImage = `url('../img.harry/${character}.jpg')`;
+
+    card.appendChild(front);
+    card.appendChild(back);
+
+    card.addEventListener('click', revealCard)
+    card.setAttribute('data-character', character)
+
+   return card; 
+}
+
 ```
 
 # Parte Bonus do projeto
